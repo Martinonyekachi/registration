@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div, form, label {
+            background-color: cyan;
+            padding: 20;
+            text-align: center;
+
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form action="/html/picture2.jpg" method="GET">
+            <div>
+            <label for="username">USERNAME</label>
+            <input type="text" name="username" id="username">
+            </div><br><br>
+
+            <div>
+            <label for="email">EMAIL</label>
+            <input type="email" name="email" id="email">
+            </div><br><br>
+
+            <div>
+            <label for="password">PASSWORD</label>
+            <input type="password" name="passwword" id="password">
+            </div><br><br>
+
+            <div>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">MALE</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">FEMALE</label>
+            </div><br><br>
+
+            <div>
+                <input type="checkbox" name="skills" id="html" value="html">
+                <label for="html">html</label>
+                <input type="checkbox" name="skills" id="css" value="css">
+                <label for="css">css</label>
+                <input type="checkbox" name="skills" id="javascript" value="javascript">
+                <label for="javascript">javascript</label>
+             </div><br><br>
+
+             <div>
+                <label for="date">Date of birth</label>
+                <input type="date" name="date" id="date">
+            </div><br><br>
+
+
+            <button type="submit">SUBMIT</button>
+            <button type="reset">RESET</button>
+         </form>
+    </div>
+    
+    
+</body>
+</html>
